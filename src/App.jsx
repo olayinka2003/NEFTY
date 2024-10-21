@@ -24,7 +24,7 @@ function App() {
     <Subscription slide={slide} click={handleClick}/>
     <Plans slide={slide}/>
 
-    <div className={`bg-black w-full lg:w-[20%] h-[100vh] max-h-[100vh] space-y-8 p-4 rounded-md absolute top-0 right-0 ${isOpen?"translate-x-full":"translate-x-0"} overflow-y-auto box-border transform duration-300 ease-in-out `}>
+    <div className={`bg-black w-full lg:w-[20%] h-[100vh] max-h-[100vh] space-y-8 p-4 rounded-md absolute top-0 right-0 ${!isOpen?"translate-x-full":"translate-x-0"} overflow-y-auto box-border transform duration-300 ease-in-out `}>
         <FaTimes onClick={handleClicks} className="text-white cursor-pointer" />
         <ul className="flex flex-col  gap-10 cursor-pointer text-white">
           <li>Project</li>
