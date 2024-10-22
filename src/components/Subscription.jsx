@@ -6,7 +6,7 @@ export const Subscription = ({slide, click}) => {
     <div className="font-lato lg:flex lg:justify-between ">
     <img src="left.svg" alt="" className="lg:block sm:flex sm:justify-center mx-auto" />
 
-      <div className="lg:mt-20 space-y-5 mb-8 md:flex md:flex-col md:items-center md:justify-center sm:flex sm:flex-col sm:items-center sm:justify-center items-center justify-center">
+      <div className="lg:mt-20 space-y-5 mb-8 md:flex md:flex-col md:items-center md:justify-center sm:flex sm:flex-col sm:items-center sm:justify-center items-center justify-center text-center">
         <p
           className="font-medium lg:text-[40px] text-center text-[#0B0B0B
 ]"
